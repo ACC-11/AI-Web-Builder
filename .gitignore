@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment files
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+secrets.ini
+config.ini
+
+# Log files
+*.log
+logs/
+
+# Database files
+*.db
+*.sqlite
+*.dump
+
+# MongoDB files
+/data/db/
+*.ns
+*.0
+*.mongod.lock
+
+# Python packaging and build artifacts
+*.egg-info/
+*.egg
+dist/
+build/
+pip-wheel-metadata/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Visual Studio Code
+.history/
+
+# PyCharm
+.idea/
+*.iml
+
+# Specific to your project
+app.py  # Only if this is a local/dev file not meant for production
+/instance/
+.webassets-cache
+
+# Compiled static files
+web_builder/static/css/*.css
+web_builder/static/js/*.js
+!web_builder/static/css/main.css  # Keep if you have important compiled CSS
+!web_builder/static/js/main.js    # Keep if you have important compiled JS
+
+# Local development files
+local_settings.py
+settings_local.py
+
+# VS Code workspace files
+*.code-workspace
