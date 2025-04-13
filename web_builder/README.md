@@ -19,22 +19,23 @@ An application that generates website content using Hugging Face's AI models and
 ## Setup Instructions
 
 1. Clone the repository
-2. Install dependencies:
+2. cd web_builder
+3. Install dependencies:
    ```
    pip install -r requirements.txt
    ```
 
-3. Configure environment variables:
+4. Configure environment variables:
    Create a `.env` file in the project root with the following variables:
    ```
    SECRET_KEY=your-secret-key-for-jwt-tokens
    JWT_SECRET_KEY=your-jwt-secret-key
    MONGO_URI=your-mongodb-connection-string
    HUGGINGFACE_API_KEY=your-huggingface-api-key
-   HUGGINGFACE_MODEL=gpt2  # or another model of your choice
+   HUGGINGFACE_MODEL=deepseek  # or another model of your choice
    ```
 
-4. Run the application:
+5. Run the application:
    ```
    python main.py
    ```
