@@ -114,9 +114,7 @@
                 <div class="text-center mb-16">
                     <h2 class="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
                     <div class="h-1 w-24 bg-indigo-600 mx-auto"></div>
-                    <p class="text-gray-600 mt-6 max-w-3xl mx-auto">{{ website.content.services.description }}</p>
                 </div>
-                <p>{{website.content.services}}</p>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {% for service in website.content.services['items'] %}
                         <div class="bg-white rounded-lg shadow-lg p-8 feature-card">
