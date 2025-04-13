@@ -37,7 +37,7 @@ An application that generates website content using Hugging Face's AI models and
 
 5. Run the application:
    ```
-   python main.py
+   python app.py
    ```
 
 ## API Endpoints
